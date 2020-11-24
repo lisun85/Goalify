@@ -1,0 +1,7 @@
+cat << EOF >> .gitignore
+#ignore truffle build artifacts
+build/
+
+#ignore node_modules
+node_modules/
+EOF
