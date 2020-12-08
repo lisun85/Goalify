@@ -61,12 +61,14 @@ module.exports = {
       provider: () => new HDWalletProvider(mnemonic, "https://ropsten.infura.io/v3/9b03003aa3c645088005eca4da1f5afc"),
       network_id: 3,
       gas: 5500000,
+      timeoutBlocks:200,
     },
     
     kovan: {
       provider: () => new HDWalletProvider(mnemonic, "https://kovan.infura.io/v3/9b03003aa3c645088005eca4da1f5afc"),
       network_id: 42,
       gas: 5500000,
+      timeoutBlocks:200,
     },
 
     rinkeby: {
